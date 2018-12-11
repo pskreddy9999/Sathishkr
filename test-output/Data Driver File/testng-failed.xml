@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driver File]">
+  <test thread-count="5" name="LoginT(failed)">
+    <classes>
+      <class name="com.w2c.testcase.LoginT">
+        <methods>
+          <include name="Login"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.w2c.testcase.LoginT -->
+    </classes>
+  </test> <!-- LoginT(failed) -->
+</suite> <!-- Failed suite [Data Driver File] -->
